@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hexa Technologies builds modern, high-converting websites for businesses, startups, and brands."
+    />
+    <title>Hexa Technologies | Premium Web Design & Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-theme="dark">
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <a href="#home" class="brand" aria-label="Hexa Technologies home">
+            <span class="brand-mark">H</span>
+            <span>Hexa Technologies</span>
+          </a>
+
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#process">Process</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <div class="nav-actions">
+            <div class="theme-switcher" aria-label="Theme selector">
+              <button class="theme-btn active" data-theme-option="dark" type="button">Dark</button>
+              <button class="theme-btn" data-theme-option="luxury" type="button">Luxury</button>
+              <button class="theme-btn" data-theme-option="startup" type="button">Startup</button>
+            </div>
+            <a href="#contact" class="btn btn-primary">Book a Call</a>
+          </div>
+
+          <button class="mobile-menu-toggle" aria-label="Open menu" type="button">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </header>
+
+      <main id="home">
+        <section class="hero section">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Website Design • Development • Branding</p>
+              <h1>We create websites that turn attention into growth.</h1>
+              <p class="lead">
+                Hexa Technologies builds premium digital experiences for businesses that want to
+                stand out, convert more visitors, and grow with confidence.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+                <a href="#work" class="btn btn-secondary">View Projects</a>
+              </div>
+
+              <ul class="quick-stats" aria-label="Company stats">
+                <li>
+                  <strong>150+</strong>
+                  <span>Projects</span>
+                </li>
+                <li>
+                  <strong>4.9/5</strong>
+                  <span>Client Rating</span>
+                </li>
+                <li>
+                  <strong>24/7</strong>
+                  <span>Support</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hero-visual" aria-label="Dashboard mockup">
+              <div class="dashboard-card">
+                <div class="dashboard-header">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                </div>
+
+                <div class="dashboard-body">
+                  <div class="metric-grid">
+                    <div class="metric-box">
+                      <small>Traffic Growth</small>
+                      <strong>+187%</strong>
+                    </div>
+                    <div class="metric-box">
+                      <small>Lead Rate</small>
+                      <strong>3.8x</strong>
+                    </div>
+                  </div>
+
+                  <div class="chart-wrap">
+                    <svg viewBox="0 0 420 190" preserveAspectRatio="none" aria-label="Growth chart">
+                      <defs>
+                        <linearGradient id="chart-fill" x1="0" x2="1">
+                          <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.35" />
+                          <stop offset="100%" stop-color="#22c55e" stop-opacity="0.08" />
+                        </linearGradient>
+                        <linearGradient id="chart-line" x1="0" x2="1">
+                          <stop offset="0%" stop-color="#7c3aed" />
+                          <stop offset="100%" stop-color="#22c55e" />
+                        </linearGradient>
+                      </defs>
+                      <path
+                        d="M0,150 C55,120, 85,98, 120,110 S175,80, 220,88 S285,20, 330,52 S370,40, 420,32 L420,190 L0,190 Z"
+                        fill="url(#chart-fill)"
+                      ></path>
+                      <path
+                        d="M0,150 C55,120, 85,98, 120,110 S175,80, 220,88 S285,20, 330,52 S370,40, 420,32"
+                        fill="none"
+                        stroke="url(#chart-line)"
+                        stroke-width="4"
+                        stroke-linecap="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="services">
+          <div class="container">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Services</p>
+                <h2>Everything your business needs online</h2>
+              </div>
+              <p>
+                We combine strategy, design, and development to build websites that look premium,
+                perform flawlessly, and support your business goals.
+              </p>
+            </div>
+
+            <div class="card-grid three-up">
+              <article class="info-card">
+                <div class="card-icon">🌐</div>
+                <h3>Business Websites</h3>
+                <p>
+                  Professional websites for brands, agencies, startups, and service businesses that
+                  need a strong digital presence.
+                </p>
+              </article>
+
+              <article class="info-card">
+                <div class="card-icon">⚡</div>
+                <h3>Landing Pages</h3>
+                <p>
+                  High-converting landing pages designed to generate leads, promote products, and
+                  increase campaign performance.
+                </p>
+              </article>
+
+              <article class="info-card">
+                <div class="card-icon">🛠️</div>
+                <h3>Website Care</h3>
+                <p>
+                  Ongoing support, updates, optimization, and maintenance so your website stays fast,
+                  secure, and up to date.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <div class="container about-grid">
+            <div class="panel">
+              <p class="eyebrow">Why Hexa</p>
+              <h2>Built to make your brand look credible and memorable.</h2>
+              <p>
+                We work with businesses that want more than just a pretty website. They need a site
+                that builds trust and turns visitors into clients.
+              </p>
+              <ul class="check-list">
+                <li>Custom, conversion-focused design</li>
+                <li>Responsive layouts for all devices</li>
+                <li>Fast load times and clean development</li>
+                <li>SEO-friendly structure</li>
+              </ul>
+            </div>
+
+            <div class="panel accent-panel">
+              <p class="eyebrow">Our goal</p>
+              <h3>Turn your online presence into a business asset.</h3>
+              <p>
+                Whether you need a new site, an update to an existing one, or a sales-focused landing
+                page, Hexa Technologies creates digital experiences that support growth.
+              </p>
+
+              <div class="mini-points">
+                <div>
+                  <strong>Fast</strong>
+                  <span>Quick delivery</span>
+                </div>
+                <div>
+                  <strong>Modern</strong>
+                  <span>Clean UI/UX</span>
+                </div>
+                <div>
+                  <strong>Reliable</strong>
+                  <span>Long-term support</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="process">
+          <div class="container">
+            <div class="section-heading narrow">
+              <div>
+                <p class="eyebrow">Process</p>
+                <h2>Simple, transparent, and results-driven</h2>
+              </div>
+            </div>
+
+            <div class="card-grid four-up">
+              <article class="step-card">
+                <span class="step-number">01</span>
+                <h3>Discover</h3>
+                <p>We learn your goals, audience, and what makes your brand unique.</p>
+              </article>
+
+              <article class="step-card">
+                <span class="step-number">02</span>
+                <h3>Design</h3>
+                <p>We craft a modern, polished website direction tailored to your business.</p>
+              </article>
+
+              <article class="step-card">
+                <span class="step-number">03</span>
+                <h3>Develop</h3>
+                <p>We build a responsive, fast, and clean website that performs well.</p>
+              </article>
+
+              <article class="step-card">
+                <span class="step-number">04</span>
+                <h3>Launch</h3>
+                <p>We test, optimize, and help you launch with confidence.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="work">
+          <div class="container">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Selected Work</p>
+                <h2>Creative solutions for modern brands</h2>
+              </div>
+              <p>
+                Design systems and digital experiences built to help businesses stand out and convert.
+              </p>
+            </div>
+
+            <div class="card-grid three-up projects-grid">
+              <article class="project-card">
+                <div class="project-visual visual-one">BRAND</div>
+                <div class="project-copy">
+                  <h3>Brand Launch</h3>
+                  <p>Premium brand identity and presentation website.</p>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-visual visual-two">SHOP</div>
+                <div class="project-copy">
+                  <h3>Storefront Experience</h3>
+                  <p>Modern design for a product-first ecommerce presence.</p>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-visual visual-three">STARTUP</div>
+                <div class="project-copy">
+                  <h3>Startup Growth</h3>
+                  <p>Marketing-focused website for leads, product awareness, and sales.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section testimonial-section">
+          <div class="container">
+            <div class="panel center-panel">
+              <p class="eyebrow">Client Feedback</p>
+              <blockquote>
+                “Hexa Technologies delivered a website that immediately made our business feel more
+                professional and trustworthy. The process was smooth and the results were clear.”
+              </blockquote>
+              <p class="testimonial-author">— Business Owner</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer" id="contact">
+        <div class="container footer-wrap">
+          <div class="footer-brand-block">
+            <a href="#home" class="brand brand-footer">
+              <span class="brand-mark">H</span>
+              <span>Hexa Technologies</span>
+            </a>
+            <p>Premium web design and development for businesses ready to grow.</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-item">
+              <h4>Email</h4>
+              <a href="mailto:zubin.sevlani@gmail.com">zubin.sevlani@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <h4>Phone</h4>
+              <a href="tel:+971567985067">+971 56 798 5067</a>
+            </div>
+            <div class="contact-item">
+              <h4>Location</h4>
+              <p>United Arab Emirates</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container footer-bottom-row">
+            <span>© 2026 Hexa Technologies</span>
+            <a href="#contact" class="btn btn-primary small-btn">Start Your Project</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
